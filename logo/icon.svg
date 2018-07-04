@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116.798" height="98.982">
+  <defs>
+    <linearGradient id="white" x1="0%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#e6e9f0"/>
+      <stop offset="100%" stop-color="#eef1f5"/>
+
+      <animate attributeName="x1" dur="20s" values="0;1;0" repeatCount="indefinite"/>
+      <animate attributeName="x2" dur="20s" values="1;0;1" repeatCount="indefinite"/>
+      <animate attributeName="y2" dur="20s" values="0;1;0" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="color" x1="0%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#5433FF"/>
+      <stop offset="50%" stop-color="#20BDFF"/>
+      <stop offset="100%" stop-color="#A5FECB"/>
+
+      <animate attributeName="x1" dur="20s" values="0;1;0" repeatCount="indefinite"/>
+      <animate attributeName="x2" dur="20s" values="1;0;1" repeatCount="indefinite"/>
+      <animate attributeName="y2" dur="20s" values="0;1;0" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+
+  <g fill="url(#color)">
+    <path d="M30.992 0c-2.772 0-5.442.413-7.351 1.434-1.81.968-3.423 2.58-4.391 4.39-1.034 1.933-1.434 4.591-1.434 7.352v7.213h13v-7.213c0-.337-.013.013-.015-.192.205.003-.148.016.191.016h72.631c.34 0-.013-.013.191-.016-.003.205-.015-.148-.015.192v7.197h13v-7.197c0-2.773-.413-5.443-1.434-7.352-.968-1.81-2.58-3.423-4.39-4.39C109.065.413 106.395 0 103.623 0h-72.63zM0 27.107v11.928h17.893v2.076h-.077v44.696c0 2.772.412 5.44 1.434 7.351.968 1.81 2.58 3.423 4.39 4.39 1.91 1.022 4.58 1.434 7.352 1.434h72.631c2.773 0 5.443-.412 7.352-1.433 1.81-.968 3.422-2.581 4.39-4.39 1.021-1.91 1.434-4.58 1.434-7.352V68.404h-.139V27.375h-13.943L87.262 52.238 71.805 27.375H57.86v53.027l12.684.018V48.04l16.38 24.862h.337l16.547-25.115v20.617h-.01v17.403c0 .211.005.143.01.119v.072c-.167-.003.143-.016-.186-.016h-72.63c-.34 0 .012.013-.192.016.001-.096.004-.11.008-.09h.02V39.035H48.72V27.107H0z"/>
+  </g>
+</svg>
